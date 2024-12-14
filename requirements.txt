@@ -1,6 +1,6 @@
-Flask
-gunicorn
-torch
+Flask==2.2.2
+gunicorn==20.1.0
+torch==2.0.1
 numpy
 joblib
 scikit-learn
