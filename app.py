@@ -30,7 +30,7 @@ class LSTMModel(nn.Module):
         return out
 
 model = LSTMModel()
-model.load_state_dict(torch.load("model.pth"))
+model.load_state_dict(torch.load("model.pt"))
 model.eval()
 
 # Load the scaler
