@@ -1,4 +1,6 @@
-﻿fastapi
-uvicorn
+Flask
+gunicorn
 torch
+numpy
+joblib
 scikit-learn
